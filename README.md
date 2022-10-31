@@ -30,8 +30,6 @@ pytest -k unit # matching filename keyword)
 pytest --report-log=./testlog.log test/ # log output to file pip install pytest-reportlog
 
 pytest --cov=./src test/  # pytest --cov=myproj tests/
-
-pytest --cov ./src/real_functions/sample_function.py test/
 ```
 
 ## How to write test class/function
